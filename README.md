@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in HTML involving the misuse of innerHTML with a JavaScript object. The bug.html file shows the incorrect implementation, resulting in an empty div instead of the expected output. The solution.html file provides the corrected code, which utilizes string conversion for proper rendering.
