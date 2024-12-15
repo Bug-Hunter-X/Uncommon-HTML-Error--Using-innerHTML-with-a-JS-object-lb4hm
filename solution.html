@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Correct use of innerHTML with string conversion
+    const myObject = { message: "Hello, world!" };
+    document.getElementById("myDiv").innerHTML = JSON.stringify(myObject); 
+  </script>
+</body>
+</html>
